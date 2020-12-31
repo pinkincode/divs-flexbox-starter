@@ -104,33 +104,68 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1.10em;
   height: 100%;
+  background-color: #355070;
 }
-
+.welcome {
+    font-weight: 700;
+    color: #eaac8b;
+    margin: 0;
+}
+.welcome h1 {
+    font-size: 3em;
+    padding: 1em 0 0 0;
+    color: #b56576;
+    
+}
+.welcome p{
+font-size: 1.6em;
+font-weight:lighter;
+padding: 0 0 .75em 0;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content:space-between;
+  border-top: .025em solid #e56b6f;
+  border-bottom: .025em solid #e56b6f;
+  
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #ede0d4;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f159e4;
+  font-size: 1.4em;
+  background-color:none;
   height: 300px;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: lighter;
+  margin: .75em 0 .75em 0;
+  
+}
+.div-1{ 
+    border-right:.025em solid #e56b6f;  
 }
 
+.div-2 {
+    border-right:.025em solid #e56b6f; 
+}
+.div-2 p{ 
+ padding: 0 0 2.5em 0;
+}
+   
 
 
-
+ span {
+ font-style: oblique;
+ font-size: .75em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
